@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(/cdestadilla/fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Bloody;
+    src: url(/cdestadilla/fonts/bloody/ScrambleStorm-ZVe7J.ttf);
+}
+
+body{
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+header{
+
+    border-bottom: 5px orange solid;
+}
+
+header > a{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#escudoHeader{
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+
+nav{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin: 0 auto;
+}
+
+nav > a:hover{
+    color: orange;
+    cursor: pointer;
+
+}
+
+main{
+    display: flex;
+    width: 100%;
+
+}
+
+#asideIzq{
+    background-color: white;
+    width: 20%;
+}
+
+#asideDer{
+    background-color: white;
+    width: 20%;
+}
+
+#contenidoMain{
+    background-color: rgb(255, 210, 127);
+    border-right: 1px rgb(255, 184, 53) solid;
+    border-left: 1px rgb(255, 184, 53) solid;
+    width: 60%;
+}
+
+#contenidoMain > h2{
+    margin-left: 1em;
+}
+
+#contenidoMain > h3{
+    margin-left: 2em;
+}
+
+#portada{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#portada > p {
+    font-family: Bloody;
+    font-size: 6em;
+    position: relative;
+    top: -0.5em;
+    margin:0 auto;
+    color:orange;
+    text-shadow: 2px 2px black;
+}
+
+#imgPortada{
+    margin: 0 auto;
+    padding-top: 4em;
+    width: 100%;
+    height: 33em;
+}
+
+#ultimasNoticias{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.noticia{
+    width: 100%;
+    padding-bottom: 2em;
+}
+
+.noticia > div > img{
+    width: 40%;
+}
+
+.noticia > div{
+    display: flex;
+    gap: 1em;
+}
+
+.noticia > div > p{
+    margin-top: 0 !important;
+    text-align: justify;
+}
+
+footer{
+    border-top: 5px orange solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: white;
+    background-color: black;
+}
+
+footer > div{
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid black;
+    flex-direction: column;
+    padding:2em 0;
+    gap: 1em;
+}
+
+footer > div > a{
+    text-decoration: none;
+    color: inherit;
+}
+
+footer > div > a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:5px;
+}

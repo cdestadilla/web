@@ -1,0 +1,24 @@
+{
+    "jugadores": {
+        "porteros": [
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"}
+        ],
+        "defensas": [
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png", "capitan": true},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"}
+        ],
+        "centrocampistas": [
+            {"nombre": "Juan Pérez", "dorsal": 25, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"}
+        ],
+        "delanteros": [
+            {"nombre": "Juan Pérez", "dorsal": 25, "imagen": "../img/escudo.png"},
+            {"nombre": "Juan Pérez", "dorsal": 1, "imagen": "../img/escudo.png"}
+        ]
+    }
+}

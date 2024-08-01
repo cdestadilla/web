@@ -1,0 +1,45 @@
+.partido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 15em;
+    border: 1px solid black;
+    margin: 0 auto;
+    background-color: rgb(249, 235, 218);
+    margin-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 2px 2px;
+    gap:2em;
+}
+
+#fecha{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    padding-top:4em ;
+}
+
+.equipo > img{
+    width: 6em;
+    height: 6em;
+}
+
+#EqLocal{
+
+}
+
+#EqVisitante{
+
+}  

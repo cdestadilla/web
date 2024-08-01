@@ -1,0 +1,15 @@
+{
+    "noticias": [
+        {
+            "titulo": "¡Primer fichaje!",
+            "imagen": "img/fichajeAlejandroMontero.jpg",
+            "contenido":"Bienvenido, Alejandro Montero , al Club Deportivo Estadilla!<br><br> Estamos emocionados de anunciar el fichaje de Alejandro Montero, un joven talento que promete grandes cosas para nuestro equipo. Con su energía y pasión por el fútbol, estamos seguros de que traerá nuevas alegrías y éxitos a nuestra familia.<br><br> Alejandro, te damos la más calurosa bienvenida. Estamos ansiosos por verte brillar en el campo y ser parte de esta emocionante aventura juntos. ¡Vamos a por todas!"        
+
+        },
+        {
+            "titulo": "¡Nuevo entrenador en nuestras filas!",
+            "imagen": "img/fichajeAntonioCastillo.jpg",
+            "contenido": "Con vistas a la nueva clasificacion 2024/2025, el club ha decidido incorporar a Antonio Castillo como el nuevo entrenador del equipo. Desde la directiva del club, queremos dar una cálida bienvenida a Antonio Castillo. Estamos convencidos de que su vasta experiencia, dedicación y pasión por el fútbol serán elementos clave para llevar a nuestro equipo a nuevos éxitos. Antonio tiene mucha trayectoria en esta categoría y estamos entusiasmados por ver cómo su visión y habilidades contribuirán al crecimiento y desarrollo de nuestro club. Asimismo, deseamos que Antonio se sienta rápidamente parte de la familia del Club Deportivo Estadilla. Sabemos que contará con el apoyo incondicional de nuestros jugadores, directiva y, por supuesto, de todos nuestros seguidores. Queremos aprovechar esta ocasión para reiterar nuestro agradecimiento a todos los miembros de la comunidad del Club Deportivo Estadilla por su continuo apoyo. Estamos seguros de que, con Antonio Castillo al frente, nos esperan grandes momentos y retos apasionantes en la próxima clasificacion. ¡Bienvenido, Antonio, y mucho éxito en esta nueva etapa!"
+        }
+    ]
+}

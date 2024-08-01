@@ -1,0 +1,64 @@
+{
+    "partidos": [
+        {
+            "local": {
+                "nombre": "CD Estadilla",
+                "imagen": "../img/escudo.png"
+            },
+            "visitante": {
+                "nombre": "UD Barbastro",
+                "imagen": "https://udbarbastro.es/wp-content/uploads/2022/02/Logotipo-UD-BARBASTRO-Vector.png"
+            },
+            "fecha": "2024-08-14",
+            "hora": "19:30"
+        },
+        {
+            "local": {
+                "nombre": "CD Almunia De San Juan",
+                "imagen": "https://www.lapreferente.com/imagenes/escudos/escudo-11657.png?f=1628541808"
+            },
+            "visitante": {
+                "nombre": "CD Estadilla",
+                "imagen": "../img/escudo.png"
+            },
+            "fecha": "2024-08-18",
+            "hora": "12:00"
+        },
+        {
+            "local": {
+                "nombre": "Alcolea CF",
+                "imagen": "https://cdn.resfu.com/img_data/equipos/4729.png?size=120x&lossy=1"
+            },
+            "visitante": {
+                "nombre": "CD Estadilla",
+                "imagen": "../img/escudo.png"
+            },
+            "fecha": "2024-08-24",
+            "hora": "12:00"
+        },
+        {
+            "local": {
+                "nombre": "CD Estadilla",
+                "imagen": "../img/escudo.png"
+            },
+            "visitante": {
+                "nombre": "Peña Ferranca",
+                "imagen": "https://www.lapreferente.com/imagenes/escudos/escudo-7492.jpg?f=1569272076"
+            },
+            "fecha": "2024-08-31",
+            "hora": "12:00"
+        },
+        {
+            "local": {
+                "nombre": "CD Estadilla",
+                "imagen": "../img/escudo.png"
+            },
+            "visitante": {
+                "nombre": "UD San Esteban",
+                "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn3e5Q1MuOkrZIL4Rm_ZqW58i8zZNV6DYyvg&s"
+            },
+            "fecha": "2024-09-14",
+            "hora": "12:00"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.D. Estadilla - Contacto</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="../js/contacto.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../img/escudo.png" id="escudoHeader">
+            <h1>C.D. Estadilla</h1>        
+        </a>
+        <nav>
+            <a href="../index.html"><div>INICIO</div></a>
+            <a href="calendario.html"><div>CALENDARIO</div></a>
+            <a href="plantilla.html"><div>PLANTILLA</div></a>
+            <a href="clasificacion.html"><div>CLASIFICACIÓN</div></a>
+            <a href="historia.html"><div>NUESTRA HISTORIA</div></a>
+            <a href="contacto.html"><div>CONTACTO</div></a>
+        </nav>
+    </header>
+    <main>
+        <aside id="asideIzq">
+
+        </aside>
+        <div id="contenidoMain">
+            <h2>Ubicación del campo</h2>
+            <div id="map" style="height: 400px;"></div>
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <div>
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <input id="button" type="submit" value="Enviar">
+                </div>
+            </form>
+            <div id="infoCorreos">
+                <p><i>Se informa a todos los visitantes de esta página que el Club Deportivo Estadilla no almacena ni retiene ninguna información proveniente de correos electrónicos enviados. Al utilizar este sitio web, usted acepta esta política de no retención de datos.</i></p>
+            </div>
+        </div>
+
+        <aside id="asideDer">
+
+        </aside>
+
+    </main>
+    <footer>
+        <div>
+            <span>Estadilla</span>
+            <span>Pl. Romeo 7-3</span>
+            <a href="mailto:clubdeportivoestadilla@gmail.com">clubdeportivoestadilla@gmail.com</a>
+        </div>
+        <div>      
+        </div>
+        <div>
+            <a href="https://www.instagram.com/cd_estadilla/" target="_blank">
+                <i style="font-size:20px" class="fa-brands fa-instagram"></i>
+                <span>@cd_estadilla</span>
+            </a>     
+            <a href="https://m.facebook.com/profile.php?id=100043413117140&name=xhp_nt__fb__action__open_user" target="_blank">
+                <i style="font-size:18px" class="fa-brands fa-facebook"></i>
+                <span>CD Estadilla</span>
+            </a>
+            <a href="https://www.cdestadilla.es/" target="_blank">
+                <i style="font-size:20px" class="fa-solid fa-globe"></i>
+                <span>www.cdestadilla.es</span>
+            </a>  
+        </div>
+    </footer>
+</body>
+</html>
